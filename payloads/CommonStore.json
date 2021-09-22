@@ -1,0 +1,34 @@
+[
+    {
+        "model_name" : "User",
+        "nice_name" : "user1",
+        "data" : [
+            {
+                "firstname" : "aakash1",
+                "lastname": "ruterh",
+                "email" : "aakash120@hotmail.com"
+            },
+            {
+                "firstname" : "aakash2",
+                "lastname": "ruterh",
+                "email" : "yeash@hotmail.com"
+            }
+        ]
+    },
+    {
+        "model_name" : "User",
+        "nice_name" : "user2",
+        "data" : [
+            {
+                "firstname" : "aakash3",
+                "lastname": "ruterh",
+                "email" : "aakash1@hotmail.com"
+            },
+            {
+                "firstname" : "aakash4",
+                "lastname": "ruterh",
+                "email" : "yeash22@hotmail.com"
+            }
+        ]
+    }
+]

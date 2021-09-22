@@ -1,0 +1,38 @@
+[
+    {
+        "model_name" : "User",
+        "nice_name" : "user1",
+        "fields" : ["firstname", "email"],
+        "conditions" : [
+            {
+                "key" : "email",
+                "value" : "%3%",
+                "condition_type" : "and",
+                "operator": "like"
+            },
+            {
+                "key" : "email",
+                "value" : "%2ss%",
+                "condition_type" : "or",
+                "operator": "like"
+            }
+        ],
+        "sort_by" : [
+            {
+                "key": "id",
+                "value": "DESC"
+            }
+        ],
+        "limit" : 1,
+        "offset" : 1,
+        "paginate": false
+    },
+    {
+        "model_name" : "User",
+        "nice_name" : "user2",
+        "fields" : ["firstname", "email"],
+        "limit" : 1000,
+        "offset" : 0,
+        "paginate": true
+    }
+]

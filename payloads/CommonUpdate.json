@@ -1,0 +1,38 @@
+[
+    {
+        "model_name" : "User",
+        "nice_name" : "user",
+        "conditions" : [
+            {
+                "key" : "id",
+                "value" : "4",
+                "condition_type" : "or",
+                "operator": "like"
+            }
+        ],
+        "data" : [
+            {
+                "x" : "id",
+                "y" : "4"
+            }
+        ]
+    },
+    {
+        "model_name" : "UserRole",
+        "nice_name" : "user_role",
+        "conditions" : [
+            {
+                "key" : "id",
+                "value" : "4",
+                "condition_type" : "or",
+                "operator": "like"
+            }
+        ],
+        "data" : [
+            {
+                "x" : "id",
+                "y" : "4"
+            }
+        ]
+    }
+]

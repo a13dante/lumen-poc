@@ -1,0 +1,26 @@
+[
+    {
+        "model_name" : "User",
+        "nice_name" : "user",
+        "conditions" : [
+            {
+                "key" : "id",
+                "value" : "1",
+                "condition_type" : "and",
+                "operator": "="
+            }
+        ]
+    },
+    {
+        "model_name" : "User",
+        "nice_name" : "user2",
+        "conditions" : [
+            {
+                "key" : "email",
+                "value" : "%meme%",
+                "condition_type" : "and",
+                "operator": "like"
+            }
+        ]
+    }
+]
